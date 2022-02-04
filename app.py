@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Created on Fri Feb  4 11:51:01 2022
+
+@author: Sujit
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Mon Jan 31 16:05:41 2022
 
 @author: Sujit
@@ -11,8 +18,6 @@ import shap
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
-import sklearn.datasets
-#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.write("""
 # Boston House Price Prediction App
