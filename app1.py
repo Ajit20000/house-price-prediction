@@ -54,7 +54,7 @@ def user_input_features():
             'PTRATIO': PTRATIO,
             'B': B,
             'LSTAT': LSTAT}
-    features = pd.DataFrame(float(data, index=[0]))
+    features = float(pd.DataFrame(data, index=[0]))
     return features
 
 df = float(user_input_features())
