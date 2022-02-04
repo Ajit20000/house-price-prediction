@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 import sklearn.datasets
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.write("""
 # Boston House Price Prediction App
